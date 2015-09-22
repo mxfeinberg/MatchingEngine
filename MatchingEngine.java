@@ -16,7 +16,7 @@ public class MatchingEngine {
 	    long startTime = System.currentTimeMillis();
             MatchingEngine obj = new MatchingEngine();
             obj.run();
-            obj.write("C:/Users/Max/Documents/small_test.txt");
+            obj.write("fill_final.txt");
 	        System.out.println("Run Time: " + (System.currentTimeMillis() - startTime) + "ms ");
 
           }
@@ -24,7 +24,7 @@ public class MatchingEngine {
           public void run() 
           {
 
-            String csvFile = "C:/Users/Max/Documents/small_orders.txt";
+            String csvFile = "orders.txt";
             BufferedReader br = null;
             String line = "";
             String csvSplitBy = ",";
